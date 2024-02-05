@@ -1,11 +1,10 @@
-import React from 'react';
 
-const Page = () => {
+import HeroSection from "@/app/components/HeroSection";
+
+const About = () => {
     return (
-        <>
-            <h1>About Page</h1>
-        </>
+        <HeroSection title={"OUR STORY"} imageUrl ={"/about1.svg"} />
     );
 };
 
-export default Page;
+export default About;
